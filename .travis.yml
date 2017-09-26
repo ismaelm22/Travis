@@ -3,10 +3,4 @@ before_install:
 - chmod +x mvnw
 install: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script: mvn test -B
-deploy:
-  provider: heroku
-  api_key:
-    secure: am9eVX+fs3PoM1DOd221+4cz98KQIAWsQPMYN7hPVYyKhQUWE8b9HCmfWeRWjYxygTc94g+zIAAMhykWDocftQpSD+qi0tOUdZ1Av4ussx6++T8ckzCud/BtXwvTY8Px9GM0MSXuIeUmeof1ntniyFHoI8QeTGzlQEa65rzN+RV6kWCJ07mF6cqztJ7Z+89KeqJmVII/dw8xTScD4yRzr7W6sJrKIKCBTWrA1jwtFLro+HZX1eCoZB99PWxoe7Hh3WJpfBddDm9p+qilE3BgERt1maF5UtJxivZ2L9dplLDE7/j8GBD3pPCOkHqmHLbViSJOAqLEsCtnZlFyir4C//5S2hTm0HmKuATCZz3Yhj6KzbhscdXmkLGn9nng+bsfwiBGO7DbVid7YtrlESmI6EXBQezxGoKYqAG6lny7vdyxxQXCxXrZxLziWXnGTFppdC42nMztnGAC8H1lru1BheT5PJ4XuUWMsWNj5njr5szD1bAXdP3Pupj0Ud7VTAhZ0BEI/w1vXqpgnSpFVY9OvV2SPMFRQDH0p+ucbHDE2feJsijEKzaW8IeGY4HVf0Vm30wlLhqWlhvJEFRdvdRKATLq6Ry2yJxWwOFMvVBV1ghpZRUbcO68NYRoZrFe9GvefWXOXcZjcRDSrh/UiA99CP0yR00ryCAoJMJ0mOt3NpE=
-  app: aqueous-cliffs-18869
-  on:
-    repo: Procesos-Heroku/repo-ejemplo
+
